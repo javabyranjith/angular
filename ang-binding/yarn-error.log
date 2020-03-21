@@ -1,0 +1,80 @@
+Arguments: 
+  C:\installed\nodejs\node.exe C:\Users\ranji\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @angular-devkit/build-angular --dev
+
+PATH: 
+  C:\Users\ranji\bin;C:\installed\Git\mingw64\bin;C:\installed\Git\usr\local\bin;C:\installed\Git\usr\bin;C:\installed\Git\usr\bin;C:\installed\Git\mingw64\bin;C:\installed\Git\usr\bin;C:\Users\ranji\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\installed\Git\cmd;C:\installed\nodejs;C:\installed\Python38\Scripts;C:\installed\Python38;C:\Users\ranji\AppData\Local\Microsoft\WindowsApps;C:\Users\ranji\OneDrive\installed-od\vs-code-1.14.0\bin;C:\Users\ranji\OneDrive\installed-od\PyCharm-2019.2.4\bin;C:\Users\ranji\AppData\Roaming\npm;C:\installed\Git\usr\bin\vendor_perl;C:\installed\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/core-js/-/core-js-2.6.10.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\ranji\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141191:19)
+      at Object.onceWrapper (events.js:299:28)
+      at ClientRequest.emit (events.js:210:5)
+      at TLSSocket.emitRequestTimeout (_http_client.js:690:9)
+      at Object.onceWrapper (events.js:299:28)
+      at TLSSocket.emit (events.js:210:5)
+      at TLSSocket.Socket._onTimeout (net.js:468:8)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7)
+
+npm manifest: 
+  {
+    "name": "angular",
+    "version": "0.0.0",
+    "private": true,
+    "dependencies": {
+      "@angular/common": "^8.0.0",
+      "@angular/compiler": "^8.0.0",
+      "@angular/core": "^8.0.0",
+      "@angular/forms": "^8.0.0",
+      "@angular/platform-browser": "^8.0.0",
+      "@angular/platform-browser-dynamic": "^8.0.0",
+      "@angular/router": "^8.0.0",
+      "core-js": "2",
+      "rxjs": "^6.5.2",
+      "zone.js": "^0.9.1"
+    },
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "build": "ng build",
+      "test": "ng test",
+      "lint": "ng lint",
+      "e2e": "ng e2e"
+    },
+    "devDependencies": {
+      "@angular-devkit/build-angular": "~0.10.0",
+      "@angular/cli": "~7.0.2",
+      "@angular/compiler-cli": "~7.0.0",
+      "@angular/language-service": "~7.0.0",
+      "@types/node": "~8.9.4",
+      "@types/jasmine": "~2.8.8",
+      "@types/jasminewd2": "~2.0.3",
+      "codelyzer": "~4.5.0",
+      "jasmine-core": "~2.99.1",
+      "jasmine-spec-reporter": "~4.2.1",
+      "karma": "~3.0.0",
+      "karma-chrome-launcher": "~2.2.0",
+      "karma-coverage-istanbul-reporter": "~2.0.1",
+      "karma-jasmine": "~1.1.2",
+      "karma-jasmine-html-reporter": "^0.2.2",
+      "protractor": "~5.4.0",
+      "ts-node": "~7.0.0",
+      "tslint": "~5.11.0",
+      "typescript": "~3.1.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
