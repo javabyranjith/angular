@@ -9,6 +9,6 @@
   1. Fork and run the springboot project https://github.com/javabyranjith/spring-boot/tree/master/sboot-rest 
   2. Test the RESTful services stated in https://github.com/javabyranjith/spring-boot/blob/master/sboot-rest/README.md
   3. Fork and run this project
-    Intall the dependencies:   > npm install
-	Update the dependencies:   > ng update
-	Start angular application: > ng s -o
+    <br/>Intall the dependencies:   > npm install
+	<br/>Update the dependencies:   > ng update
+	<br/>Start angular application: > ng s -o
